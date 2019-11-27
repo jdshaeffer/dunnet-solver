@@ -1,0 +1,131 @@
+take all
+e
+e
+dig
+take all
+se
+take all
+se
+feed bear
+take all
+sw
+take all
+ne
+nw
+nw
+ne
+ne
+ne
+w
+put cpu in vax
+type
+toukmond
+robert
+ftp gamma
+anonymous
+toukmond
+binary
+send lamp.o
+send shovel.o
+send key.o
+send bracelet.o
+quit
+rlogin gamma
+worms
+take all
+e
+n
+e
+drop shovel
+drop key
+drop bracelet
+take weight
+d
+drop weight
+nw
+u
+take all
+se
+d
+nw
+ne
+drop disk
+w
+s
+e
+turn dial clockwise
+turn dial clockwise
+turn dial clockwise
+turn dial counterclockwise
+w
+n
+e
+take all
+d
+nw
+u
+se
+d
+nw
+nw
+s
+s
+s
+s
+put bracelet in chute // save treaure-cave
+put diamond in chute
+s
+take all
+e
+e
+n
+d
+d
+sw
+e
+u
+dig
+take all
+d
+w
+w
+d
+e
+take all
+d
+s
+s
+s
+put disk in pc
+reset
+<enter>
+type foo.txt // parse the combo
+exit
+n
+n
+n
+n
+n
+u
+put key in box
+u
+u
+ne
+ne
+take all
+d
+s
+d
+put gold in urinal
+put platinum in urinal
+flush
+n
+u
+w
+428 // or whatever the combo is
+cut cable
+exit
+take all
+e
+n
+take all // save jd-meadow

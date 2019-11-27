@@ -1,5 +1,5 @@
-from subprocess import Popen, PIPE
-from time import sleep
+# from subprocess import Popen, PIPE
+# from time import sleep
 
 # def out(output):
 #     print(output.decode('utf-8'))
@@ -8,9 +8,17 @@ from time import sleep
 #     p.stdin.write(command.encode('utf-8'))
 #     p.stdin.flush()
 
-dunnet = 'emacs -batch -l dunnet'
+import subprocess
 
-p = Popen(dunnet.split(), stdout=PIPE, stdin=PIPE)
-out = p.communicate(input=b'take all\nhello')[0]
-print(out.decode('utf-8'))
+dunnet = 'dunnet.sh'
 
+with open('dunnet_fkt.txt', 'rb', 0) as input_file:
+    subprocess.check_call(dunnet, stdin=input_file)
+
+# p = Popen(dunnet.split(), stdout=PIPE, stdin=PIPE)
+# take_all = p.communicate(input=b'take all')[0]
+# input(">>")
+# print(take_all.decode('utf-8'))
+# help = p.communicate(input=b'help')[0]
+# input(">>")
+# print(help.decode('utf-8'))
