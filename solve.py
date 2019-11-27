@@ -10,7 +10,7 @@
 
 import subprocess
 
-dunnet = 'dunnet.sh'
+dunnet = './dunnet.sh'
 
 with open('dunnet_fkt.txt', 'rb', 0) as input_file:
     subprocess.check_call(dunnet, stdin=input_file)
