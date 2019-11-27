@@ -1,8 +1,12 @@
 # dunnet-fkt
-script that solves Dunnet, the beloved Emacs text adventure by Ron Schnell in the fastest known time.
+script that solves Dunnet, the beloved Emacs text adventure by Ron Schnell in the least moves possible.
 
-this script requires `pwntools`, which is best run on Linux or OSX: https://github.com/Gallopsled/pwntools
+currently only on Linux (x86_64).
 
-if you only have access to a Windows machine, see how to install `pwntools` here: https://github.com/masthoon/pwintools
+## install
 
-if you have syntax error issue arise after installing on macOS, take a look here: https://github.com/arthaud/python3-pwntools/issues/3
+for starters, you'll need Emacs: `sudo apt install emacs`
+
+then `pwntools`: `pip3 install git+https://github.com/arthaud/python3-pwntools.git --user`
+
+and finally: `python3 pwn_solve.py`
