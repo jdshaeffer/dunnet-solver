@@ -129,3 +129,13 @@ take all
 e
 n
 take all // save jd-meadow
+w
+put silver in mail
+n
+e
+e
+e
+e
+e
+n
+take all
