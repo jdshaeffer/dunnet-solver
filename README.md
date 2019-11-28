@@ -17,7 +17,8 @@ on macOS, a common error you might see when installing `pwntools` is a syntax er
 
 if everything worked, run `python3 pwn_solve.py` and enjoy
 
-a few notes:
+## a few notes
+
 - I solved Dunnet personally with very few hints and no complete walkthrough
 - the sequence and order of commands is entirely my own strategy and could certainly be improved on (pr's welcome!)
 - I know `get` has less characters than `take`, but `take` just sounds better to me, and doesn't affect number of commands, so the solver uses `take` for inventory pick ups.
