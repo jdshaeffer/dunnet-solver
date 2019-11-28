@@ -8,18 +8,23 @@ def dis(num_lines):
     for _ in range(num_lines):
         print(p.readline().decode('utf-8'), end='')
     print()
-    sleep(.5)
+    sleep(.2)
 
 def write_slow(command):
     for char in command:
         print(char, end='')
-        sleep(.1)
+        sleep(.05)
     print()
 
 def do(command):
-    # print(command)
     write_slow(command)
     p.sendline(command)
+
+def check_egg(num_lines):
+    out = []
+    for _ in range(num_lines):
+        out.append(p.readline().decode('utf-8'))
+
     
 # could loop over each but dis is custom for each command
 if __name__ == "__main__":
@@ -216,85 +221,117 @@ if __name__ == "__main__":
     do('s')
     dis(3)
     do('s')
-    dis(4)
+    dis(5)
     do('put disk in pc')
     dis(1)
     do('reset')
     dis(1)
-    do('')
+    do('1')
     do('type foo.txt')
-    
+    dis(1)
+    code = p.readline().decode('utf-8').split('is ')[1]
+    print('The combination is', code, end='')
+    code = code[:3] # get rid of the period
+    do('exit')
+    dis(3)
+    do('n')
+    dis(1)
+    do('n')
+    dis(1)
+    do('n')
+    dis(1)
+    do('n')
     dis(2)
-    do('exit')
     do('n')
-    do('n')
-    do('n')
-    do('n')
-    do('n')
+    dis(3)
     do('u')
+    dis(3)
     do('put key in box')
+    dis(2)
     do('u')
+    dis(2)
     do('u')
+    dis(3)
     do('ne')
+    dis(2)
     do('ne')
+    dis(4)
     do('take all')
+    dis(1)
     do('d')
+    dis(1)
     do('s')
+    dis(3)
     do('d')
+    dis(4)
     do('put gold in urinal')
+    dis(1)
     do('put platinum in urinal')
+    dis(1)
     do('flush')
+    dis(2)
     do('n')
+    dis(1)
     do('u')
+    dis(1)
     do('w')
-    do('428')
+    dis(1)
+    do(code)
+    dis(5)
     do('cut cable')
+    dis(4)
     do('exit')
+    dis(6)
     do('take all')
+    dis(1)
     do('e')
+    dis(1)
     do('n')
+    dis(6)
     do('take all')
+    dis(3)
     do('w')
+    dis(4)
     do('n')
-    # <check egg>
+    check_egg(7)
     do('n')
-    # <check egg>
+    check_egg(2)
     do('n')
-    # <check egg>
+    check_egg(2)
     do('n')
-    # <check egg>
+    check_egg(2)
     do('e')
-    # <check egg>
+    check_egg(2)
     do('s')
-    # <check egg>
+    check_egg(2)
     do('s')
-    # <check egg>
+    check_egg(2)
     do('s')
-    # <check egg>
+    check_egg(2)
     do('e')
-    # <check egg>
+    check_egg(2)
     do('n')
-    # <check egg>
+    check_egg(2)
     do('n')
-    # <check egg>
+    check_egg(2)
     do('n')
-    # <check egg>
+    check_egg(2)
     do('e')
-    # <check egg>
+    check_egg(2)
     do('s')
-    # <check egg>
+    check_egg(2)
     do('s')
-    # <check egg>
+    check_egg(2)
     do('s')
-    # <check egg>
+    check_egg(2)
     do('e')
-    # <check egg>
+    check_egg(2)
     do('e')
-    # <check egg>
+    check_egg(2)
     do('n')
-    # <check egg>
+    check_egg(4) # coins here
     do('w')
-    # <check egg>
+    check_egg(2) # but if the egg is there, then it's 3 lines
     do('n')
     # <check egg>
     do('e')
