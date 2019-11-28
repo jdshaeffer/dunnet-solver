@@ -130,12 +130,148 @@ e
 n
 take all // save jd-meadow
 w
-put silver in mail
 n
-e
-e
-e
-e
-e
+take all // trying to find the egg (rng)
 n
 take all
+n
+take all
+n
+take all
+e
+take all
+s
+take all
+s
+take all
+s
+take all
+e
+take all
+n
+take all
+n
+take all
+n
+take all
+e
+take all
+s
+take all
+s
+take all
+s
+take all
+e
+take all
+n
+take all
+n
+take all
+n
+take all
+e
+take all
+s
+take all
+s
+take all
+s
+take all
+n
+n
+n
+enter
+w
+w
+w
+w
+w
+s
+s
+s
+nw
+exit
+n
+e
+n
+e
+take all
+s
+take all
+w
+w
+s
+se
+e
+e
+e
+e
+n
+n
+put glycerine in jar
+put acid in jar
+drop jar
+enter
+n
+n
+d
+take all
+u
+put amethyst in garbage
+put ruby in garbage
+put silver in garbage
+put egg in garbage
+put coins in garbage
+u
+w
+w
+s
+w
+s
+se
+s
+e
+s
+w
+drop key
+drop license
+type
+rlogin endgame
+take all
+n
+n
+answer <answer>
+n
+answer <answer>
+n
+answer <answer>
+drop bracelet
+drop diamond
+drop gold
+drop platinum
+drop egg
+drop coins
+drop silver
+drop ruby
+n
+take all
+s
+drop mona
+s
+answer <answer>
+s
+answer <answer>
+s
+answer <answer>
+s
+take all
+n
+n
+answer <answer>
+n
+answer <answer>
+n
+answer <answer>
+drop amethyst
+quit
