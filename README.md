@@ -1,5 +1,5 @@
 # dunnet-solver
-script that solves Dunnet, the beloved Emacs text adventure by Ron Schnell in the least moves possible with style.
+script that solves Dunnet, the beloved Emacs text adventure by Ron Schnell in the least moves possible ***with style***.
 
 ## install
 
