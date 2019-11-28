@@ -131,56 +131,54 @@ n
 take all // save jd-meadow
 w
 n
-take all // trying to find the egg (rng)
+<check egg>
 n
-take all
+<check egg>
 n
-take all
+<check egg>
 n
-take all
+<check egg>
 e
-take all
+<check egg>
 s
-take all
+<check egg>
 s
-take all
+<check egg>
 s
-take all
+<check egg>
 e
-take all
+<check egg>
 n
-take all
+<check egg>
 n
-take all
+<check egg>
 n
-take all
+<check egg>
 e
-take all
+<check egg>
 s
-take all
+<check egg>
 s
-take all
+<check egg>
 s
-take all
+<check egg>
 e
-take all
-n
-take all
-n
-take all
-n
-take all
+<check egg>
 e
-take all
-s
-take all
-s
-take all
-s
-take all
+<check egg>
 n
+<check egg>
+w
+<check egg>
 n
+<check egg>
+e
+<check egg>
 n
+<check egg>
+w
+<check egg>
+e
 enter
 w
 w
