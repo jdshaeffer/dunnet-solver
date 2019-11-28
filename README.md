@@ -9,7 +9,7 @@ then `pwntools`: `pip3 install git+https://github.com/arthaud/python3-pwntools.g
 
 `pwntools` can be tricky to install, so follow their directions carefully
 
-if you run into any issues, feel free to submit an issue and I'll get to it asap
+if you run into any issues, feel free to submit an issue and I'll help you out
 
 on macOS, a common error you might see when installing `pwntools` is a syntax error issue - take a look here to solve: https://github.com/arthaud/python3-pwntools/issues/3
 
