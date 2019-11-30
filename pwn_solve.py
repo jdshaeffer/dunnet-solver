@@ -84,7 +84,7 @@ def welcome():
   \/_____/   \/_____/   \/_____/   \/_/      \/_____/   \/_/ /_/ 
     ''')
     print('note: dunnet 2.01 was written by Ron Schnell, I hold no rights to his game.\n')
-    print('how fast do you want to solve dunnet? (slow, medium, quick, blazin)')
+    print('how fast do you want to solve dunnet? (slow, medium, quick, blazin, justdoit)')
     chosen = False
     while not chosen:
         x = input('> ')
@@ -99,6 +99,9 @@ def welcome():
             chosen = True
         elif x == 'blazin':
             speed = .1
+            chosen = True
+        elif x == 'justdoit':
+            speed = 0
             chosen = True
         else:
             print('I didn\'t understand that')
