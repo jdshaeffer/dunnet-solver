@@ -110,7 +110,7 @@ def welcome():
 
 # could loop over each but dis is custom for each command
 def main(speed):
-    p = process('start_dunnet')
+    p = process('dunnet.sh')
     dis(p, 7, speed)
     do(p, 'take all', speed)
     dis(p, 1, speed)
