@@ -7,7 +7,7 @@ questions = [
     'What network protocol is used between pokey and gamma?\n',
     'How many pounds did the weight weigh?\n',
     'Name the STREET which runs right over the subway stop.\n',
-    'What is your login name on the \'endgame\' machine?\n',
+    'What is your login name on the ‘endgame’ machine?\n',
     'How many corners are there in town (excluding the one with the Post Office)?\n',
     'What password did you use during anonymous ftp to gamma?\n',
     'What is the nearest whole dollar to the price of the shovel?\n',
@@ -18,7 +18,7 @@ questions = [
     'What is the last name of the author of EMACS?\n',
     'What is the name of the bus company serving the town?\n',
     'Which street in town is named after a U.S. state?\n',
-    'What is your password on the machine called \'pokey\'?\n',
+    'What is your password on the machine called ‘pokey’?\n',
 ]
 
 # question 0 is answer 0
